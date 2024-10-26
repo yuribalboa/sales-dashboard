@@ -23,14 +23,25 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/cadastro" element={<Registration />} />
-        <Route element={<ProtectedRoute />}>
-          <Route path="/home" element={<Home />} />
-          <Route path="/leads" element={<Leads />} />
-          <Route path="/perfil" element={<Profile />} />
-        </Route>
+        <Route path="/home" element={<Home />} />
+        <Route path="/leads" element={<Leads />} />
+        <Route path="/perfil" element={<Profile />} />
       </Routes>
     </Router>
   )
 }
 
 export default App
+
+//ROTA PROTEGIDA
+//<Router>
+//    <Routes>
+//    <Route path="/" element={<Login />} />
+//  <Route path="/cadastro" element={<Registration />} />
+//        <Route element={<ProtectedRoute />}>
+//        <Route path="/home" element={<Home />} />
+//      <Route path="/leads" element={<Leads />} />
+//    <Route path="/perfil" element={<Profile />} />
+//    </Route>
+//      </Routes>
+//  </Router>
