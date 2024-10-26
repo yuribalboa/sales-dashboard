@@ -2,14 +2,14 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate,
-  Outlet,
+  //Navigate,
+  //Outlet,
 } from 'react-router-dom'
-import Cookies from 'js-cookie'
+//import Cookies from 'js-cookie'
 import { Home, Leads, Login, Profile, Registration } from './pages'
 
 function App() {
-  const ProtectedRoute = () => {
+  /*const ProtectedRoute = () => {
     const checkAuthCookie = Cookies.get('Authorization')
     if (!checkAuthCookie) {
       alert('Autenticação necessária')
@@ -17,7 +17,7 @@ function App() {
     }
 
     return <Outlet />
-  }
+  }*/
   return (
     <Router>
       <Routes>
