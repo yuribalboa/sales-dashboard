@@ -12,7 +12,7 @@ import {
   StyledButton,
   StyledH2,
 } from '@/components'
-import { /*Card,*/ Container, Grid } from '@mui/material'
+import { Container, Grid } from '@mui/material'
 
 //HOOK
 import { useFormValidation, useGet, usePut, useDelete } from '@/hooks'
@@ -60,7 +60,7 @@ function Profile() {
   } = usePut<ProfileEditableData>('profile/update')
 
   const { deleteData: profileDeleteData, loading: profileDeleteLoading } =
-    useDelete('profile/update')
+    useDelete('profile/delete')
 
   useEffect(() => {
     if (profileData) {
