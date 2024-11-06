@@ -1,4 +1,4 @@
-import { Theme } from '@types'
+import { Theme } from '@/types'
 
 export const lightTheme: Theme = {
   appBackground: '#FFF',
@@ -44,7 +44,7 @@ export const darkTheme: Theme = {
   appBackground: '#060B26',
   appColor: '#FFF',
   appDefaultStroke: '#21497D',
-  appLogo: 'dnc-logo-white.svg.',
+  appLogo: 'dnc-logo-white.svg',
   appSkeletonFrom: '#060B26',
   appSkeletonTo: '#21497D',
   buttons: {
