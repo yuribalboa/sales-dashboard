@@ -50,26 +50,30 @@ Uma aplicação frontend e backend desenvolvida com **React** e **TypeScript**, 
 
 ### **Passo a Passo**
 
-1. **Clone o repositório:**
-   ```
-   git clone https://github.com/seu-usuario/salesboard-app.git
-   cd salesboard-app
-   ```
-Instale as dependências:
+**Clone o repositório:**
+```
+git clone https://github.com/yuribalboa/sales-dashboard.git
+
+cd sales-dashboard
+```
+**Instale as dependências:**
 ```
 npm install
 ```
-Configure o arquivo .env: Crie um arquivo .env na raiz do projeto e configure as variáveis necessárias: .env
+**Configure o arquivo .env:**
+
+Crie um arquivo .env na raiz do projeto e configure as variáveis necessárias: .env
 
 VITE_API_URL=https://api.exemplo.com
+
 VITE_JWT_SECRET=sua-chave-secreta
 
-Execute a aplicação:
+**Execute a aplicação:**
 ```
 npm run dev
 ```
 
-Abra no navegador:
+**Abra no navegador:**
 
 O projeto será executado em http://localhost:3000.
 
